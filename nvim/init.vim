@@ -50,7 +50,6 @@ endif
 "End dein Scripts-------------------------
 
 
-
 " -------------------------------
 " Vim Settings
 " -------------------------------
@@ -63,12 +62,12 @@ filetype plugin indent on
 syntax on
 
 " color
-colorscheme cobalt 
+colorscheme iceberg
 
 " highlight
-highlight Comment ctermfg=green
-hi NonText ctermfg=138
-hi SpecalKey ctermfg=132
+highlight Comment ctermfg=46
+highlight LineNr ctermfg=228
+hi Nontext ctermfg=1
 " set
 " set t_Co=256 " 256 colored screen
 
