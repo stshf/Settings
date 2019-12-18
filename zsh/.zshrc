@@ -36,3 +36,6 @@ alias cpfile="scp -P 60006 -i ~/.ssh/crest "
 # path to pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+
+# keybind like vim
+bindkey -v
