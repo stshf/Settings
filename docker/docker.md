@@ -45,7 +45,7 @@ sudo apt-get update
 ### Install docker
 1. update `apt` package
 ```bash
-sudp apt update
+sudo apt update
 ```
 2. Install Docker
 ```bash
