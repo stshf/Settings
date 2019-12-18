@@ -111,7 +111,7 @@ sudo apt-key add /var/cuda-repo-10-2-local-10.2.89-440.33.01/7fa2af80.pub
 
 sudo apt-get update
 ```
-最後の行を以下に変更してドライバーのみインストール
+ドライバーのみインストール
 ```
 sudo apt-get -y install cuda-drivers
 ```
