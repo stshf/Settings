@@ -1,0 +1,45 @@
+{
+    //----------------------------------------------------------
+    // Settings for vscode setting
+    //----------------------------------------------------------
+    "editor.fontSize": 17,
+    "files.autoSave": "afterDelay",
+    "editor.renderWhitespace": "boundary",
+    "editor.wordWrap": "on",
+    "editor.accessibilitySupport": "off",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.quickSuggestions": false,
+    "workbench.colorTheme": "Iceberg",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontSize": 17,
+    //サジェスチョン
+    "editor.quickSuggestionsDelay": 10 ,//入力補完の検出タイミング
+    //"editor.quickSuggestions":false,
+    "editor.quickSuggestions": {      //入力補完
+        "other"   : true,             //文字列以外
+        "strings" : false,            //文字列
+        "comments": false,            //コメント
+    },
+    //----------------------------------------------------------
+    // Settings for vscode vim
+    //----------------------------------------------------------
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.easymotion": true,
+    "vim.visualstar": true, //search word
+    "vim.useCtrlKeys": true,
+    "vim.ignorecase": true, // ignore case in search patterns.
+    "vim.incsearch": true, // show where a / search matches as you type it.
+    "vim.sneak": true, // enable the sneak plugin for vim.
+    "vim.whichwrap": "h,l",
+    "vim.statusBarColorControl": false,
+    "vim.insertModeKeyBindings":
+    [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+}
